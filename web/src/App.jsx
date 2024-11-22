@@ -1,12 +1,10 @@
-import './App.css'
-import AudioRecorder from './components/AudioRecorder'
+import AudioCard from './components/AudioCard'
 
 function App() {
   return (
-    <>
-      <h2>Voice Recorder</h2>
-      <AudioRecorder />
-    </>
+    <div className='flex min-h-screen bg-gray-250 items-center justify-center'>
+      <AudioCard />
+    </div>
   )
 }
 
